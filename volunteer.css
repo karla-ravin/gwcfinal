@@ -30,3 +30,37 @@ body {
 .menu .icon {
   display: none;
 }
+
+#location{
+  position: absolute;
+  left: 50px;
+  height: 50px;
+  width: 100px;
+}
+
+#age{
+  position: absolute;
+  left: 900px;
+  height: 50px;
+  width: 100px;
+}
+
+.text{
+  font-family: sans-serif;
+}
+
+img{
+  position: absolute;
+  height: 600px;
+  width: 800px;
+  left: 125px;
+  top: 200px;
+}
+
+button{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 500px;
+  top: 125px;
+}
