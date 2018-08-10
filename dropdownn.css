@@ -1,0 +1,22 @@
+/* remove the past location and age ids with these ones */
+#location{
+  position: absolute;
+  left: 50px;
+  height: 40px;
+  width: 100px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #9ab7d3;
+  border: 1.5px solid #282828;
+  border-radius: 5px;
+}
+
+#age{
+  position: absolute;
+  left: 900px;
+  height: 40px;
+  width: 100px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #9ab7d3;
+  border: 1.5px solid #282828;
+  border-radius: 5px;
+}
