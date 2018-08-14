@@ -1,0 +1,234 @@
+body {
+  font-family: georgia;
+  background: #9ab7d3;
+}
+.menu {
+  overflow: hidden;
+  background-color: #dbe8ff;
+}
+
+.menu a {
+  float: left;
+  display: block;
+  color: #3d495e;
+  text-align: center;
+  padding: 14px 125px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  background-color: #3d495e;
+  color: #f4f6f9;
+}
+
+.current {
+  background-color: #b3cdf9;
+  color: #f4f6f9;
+}
+
+.menu .icon {
+  display: none;
+}
+
+#location{
+  height: 40px;
+  width: 200px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: navy;
+  border: 1.5px solid #282828;
+  border-radius: 5px;
+}
+
+#services{
+  height: 40px;
+  width: 200px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: navy;
+  border: 1.5px solid #282828;
+  border-radius: 5px;
+}
+.text{
+  font-family: sans-serif;
+}
+
+
+select{
+  height: 50px;
+  width: 150px;
+  position: center;
+}
+
+body{
+  /* should we center everything on our site? */
+  text-align: center;
+  /* same font throughout the site? */
+  font-family: sans-serif;
+  /* makes all uppercase letters -> lovecase */
+}
+
+#mymenu{
+  position: center;
+}
+
+h1{
+  font-size: 40px;
+}
+
+div{
+  position: center;
+}
+
+.column {
+  float: left;
+  width: 50%
+}
+
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.container{
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+}
+
+#menu {
+    margin:0 auto;
+    display: inline-block;
+    list-style:none;
+    padding:0;
+    border-top:1 solid #ccc;
+    border-left:1 solid #ccc;
+    border-bottom:1 solid #ccc;
+}
+
+#menu li {
+    float: left;
+    background-color:#dbe8ff;
+}
+
+#menu li a {
+    display:block;
+    text-decoration:none;
+    color:#3d495e;
+    padding: 14px 125px;
+    font-size: 17px;
+    border-right:1px solid #ccc;
+}
+
+#menu li a:hover {
+    color:#f4f6f9;
+    background-color:#3d495e;
+}
+
+h3 {
+/*  edits the DISCLAIMER word  */
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #f5d2d3;
+  margin: 80px 0;
+}
+
+.box {
+  /* the word when pressed will start the popup */
+  width: 40%;
+  margin: 0 auto;
+  padding: 35px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.button {
+/* button for pop up */
+  font-size: 1em;
+  padding: 10px;
+  /* color: #fff; */
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  /* changes the color of the button when mouse is on it */
+  /* blue */
+  background: lightblue;
+}
+
+#mapid {
+  margin: auto;
+  height: 600px;
+  width: 800px;
+}
+
+.overlay {
+  /* changes the background of the popup outside */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #9ab7d3 ;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  /* somehow related to the overlay */
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  /* the desc. inside popup */
+  margin: 70px auto;
+  padding: 20px;
+  /* background: #fff; */
+  background: #dbe8ff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+.popup h2 {
+  /* changes the TITLE of popup */
+  margin-top: 0;
+  color: #3d495e;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.popup .close {
+  /* changes the closing button of popup */
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.popup .close:hover {
+  /* when mouse hovers changes color */
+  color: blue;
+}
+.popup .content {
+  /* dont know what this does */
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
