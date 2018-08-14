@@ -21,21 +21,21 @@ var animals = {
 };
 /////////////////////////////////////////////////////////////////////////////////////
 var pplBridgeport = {
-  "Name" : "Daniel trust foundation",
-  "Description" : "Invests in and supports low income students’ educational and professional goals",
+  "Name" : "Daniel Trust Foundation",
+  "Description" : "Invests in and supports low income students\' educational and professional goals",
   "Address" : "285 Fairfield Avenue, Bridgeport CT, 06604",
   "Link" : "https://www.danieltrustfoundation.org/"
 };
 
 var pplDanbury = {
   "Name" : "The Salvation Army Family Store and Donation Center",
-  "Description" : "Help disaster survivors, cure hunger, overcome poverty, serve the LGBTQ community, provide shelter, fight human trafficking, stop domestic abuse, equip families, teach kids, empower the arts, assist the unemployed, combat addiction, love the elderly, serve veterans, share god's love, and meet the greatest need",
+  "Description" : "Help disaster survivors, cure hunger, overcome poverty, serve the LGBTQ community, provide shelter, fight human trafficking, stop domestic abuse, equip families, teach kids, empower the arts, assist the unemployed, combat addiction, love the elderly, serve veterans, share god\'s love, and meet the greatest need",
   "Address" : "129 Main St, Danbury CT, 06810",
   "Link" : "https://www.salvationarmyusa.org/usn/"
 };
 var pplGlastonbury = {
   "Name" : "Youth and Family Services",
-  "Description" : "Glastonbury youth and family services is a town agency devoted to programs and services that respond to the needs of glastonbury youth and their family",
+  "Description" : "Glastonbury youth and family services is a town agency devoted to programs and services that respond to the needs of Glastonbury youth and their family",
   "Address" : "321 Hubbard Street, Glastonbury CT, 06033",
   "Link" : "http://www.glastonbury-ct.gov/departments/department-directory-l-z/youth-and-family-services#ad-image-2"
 };
@@ -52,17 +52,32 @@ var ppl2Glastonbury= {
   "Link" : "http://www.ghymca.org/index.cfm"
 };
 var ppl3Glastonbury = {
-  "Name" : "Children Advancement Fund",
+  "Name" : "Children\'s Advancement Fund",
   "Description" : "A nonprofit organization, supports children with special needs and their families in connecticut by facilitating services such as occupational, physical, and speech/language therapy",
   "Address" : "1062 Glastonbury CT 06033 USA ",
   "Link" : "https://www.facebook.com/childrensadvancementfund/"
 };
 
 var pplHartford = {
-  "Name" : "Connecticut Children’s Medical Center",
-  "Description" : "Connecticut Children’s Medical Center is dedicated to improving the physical and emotional health of children through family-centered care, research, education and advocacy. They embrace discovery, teamwork, integrity and excellence in all that we do. They are making children in Connecticut the healthiest in the country",
+  "Name" : "Connecticut Children\'s Medical Center",
+  "Description" : "Connecticut Children\'s Medical Center is dedicated to improving the physical and emotional health of children through family-centered care, research, education and advocacy. They embrace discovery, teamwork, integrity and excellence in all that we do. They are making children in Connecticut the healthiest in the country",
   "Address" : "282 Washington St, Hartford, CT 06106",
   "Link" : "https://www.connecticutchildrens.org/about-us/mission/"
+};
+
+var pplLitchfield = {
+  "Name" : "North American Family Institute",
+  "Description" : "North American Family Institute is a private, nonprofit human service agency specializing in community-based care for children, youth and adults with mental health and/or behavioral issues. Since 1974, we have provided programming and services designed around the Normative Community Approach, which emphasizes the ability of all people to achieve positive change when they are members of a community united in mission and purpose. Together, we empower individuals to maximize their independence and succeed in the future",
+  "Address" : "11 Country Place, Litchfield, CT 06759",
+  "Link" : "http://www.nafi.com/"
+};
+
+
+var pplMiddletown = {
+  "Name" : "US Pain Foundation",
+  "Description" : "Dear friend, If you love our work then tell the world! You have an opportunity to help us make even more of a difference in our community. GreatNonprofits-a review site like TripAdvisor-is honoring highly reviewed nonprofits with their 2013 Top-Rated Awards. Won\'t you help us raise visibility for our work by posting a review of your experience with us? All reviews will be visible to potential donors and volunteers. It\'s easy and only takes 3 minutes! ",
+  "Address" : "670 Newfield street suite B, Middletown CT, 06457",
+  "Link" : "https://uspainfoundation.org/"
 };
 
 var pplHaven = {
@@ -73,7 +88,7 @@ var pplHaven = {
 };
 var pplLondon = {
   "Name" : "Birthright- Israel",
-  "Description" : "Birthright guiding principle It is the right of every pregnant woman to give birth and the right of every child to be born. Birthright offers the alternative to abortion. Birthright is pro-life. Birthright is non-profit, interdenominational, and non-political. Help make a difference in a mother's life as she prepares for the birth of her baby",
+  "Description" : "Birthright guiding principle It is the right of every pregnant woman to give birth and the right of every child to be born. Birthright offers the alternative to abortion. Birthright is pro-life. Birthright is non-profit, interdenominational, and non-political. Help make a difference in a mother\'s life as she prepares for the birth of her baby",
   "Address" : "26 Phillips St, New London, CT 06901",
   "Link" : "https://www.birthrightisrael.com/"
 };
@@ -98,9 +113,15 @@ var ppl1Stamford = {
 
 var ppl2Stamford = {
   "Name" : "Birthright- Israel",
-  "Description" : "Birthright guiding principle It is the right of every pregnant woman to give birth and the right of every child to be born. Birthright offers the alternative to abortion. Birthright is pro-life. Birthright is non-profit, interdenominational, and non-political. Help make a difference in a mother's life as she prepares for the birth of her baby",
+  "Description" : "Birthright guiding principle It is the right of every pregnant woman to give birth and the right of every child to be born. Birthright offers the alternative to abortion. Birthright is pro-life. Birthright is non-profit, interdenominational, and non-political. Help make a difference in a mother\'s life as she prepares for the birth of her baby",
   "Address" : "388 Summer St, Stamford, CT 06901",
   "Link" : "https://www.birthrightisrael.com/"
+};
+var pplWaterbury = {
+  "Name" : "Connecticut Community Foundation",
+  "Description" : "Building rewarding lives and thriving communities in Greater Waterbury and the Litchfield Hills",
+  "Address" : "43 Field Street, Waterbury, CT 06702",
+  "Link" : "https://conncf.org/"
 };
 
 
@@ -110,13 +131,13 @@ var people = {
     "Glastonbury" : [pplGlastonbury, ppl1Glastonbury, ppl2Glastonbury, ppl3Glastonbury],
     "Greenwich" : "No responses matching search",
     "Hartford" : pplHartford,
-    "Litchfield" : "No responses matching search",
-    "Middletown" : "No responses matching search",
+    "Litchfield" : pplLitchfield,
+    "Middletown" : pplMiddletown,
     "Haven" : pplHaven,
     "London" : pplLondon,
     "Norwalk" : pplNorwalk,
     "Stamford" : [pplStamford, ppl1Stamford],
-    "Waterbury" : "No responses matching search"
+    "Waterbury" : pplWaterbury
 };
 ////////////////////////////////////////////////////////////
 
@@ -134,19 +155,32 @@ var oneGlastonbury = {
   "Link" : "http://www.childrensworldcharity.org/"
 };
 
+var oneLitchfield = {
+  "Name" : "Litchfield Jazz Festival",
+  "Description" : "Set in the picturesque, rolling Litchfield Hills, the Litchfield Jazz Festival was launched in 1996 with a line-up any well-established festival would be proud of today the up-and-coming Diana Krall, Christian McBride, Terence Blanchard, Russell Malone, Peter Bernstein, Larry Goldings, Renee Rosnes, Mark Turner and many more",
+  "Address" : "P.O. Box 69, Litchfield, Connecticut 06759",
+  "Link" : "https://litchfieldjazzfest.com/"
+};
+var oneWaterbury = {
+  "Name" : "Waterbury Art Fest",
+  "Description" : "The Waterbury Arts Fest is a two day street fair with entertainment and artwork from some the most talented performers and artists in our area! It also serves as the main fundraiser for Revitalizing Waterbury",
+  "Address" : "23 Stowe St, Waterbury, CT 06702",
+  "Link" : "https://waterburyartsfest.com/"
+};
+
 var oneday = {
     "Bridgeport" : "No responses matching search",
     "Danbury" : oneDanbury,
     "Glastonbury" : oneGlastonbury,
     "Greenwich" : "No responses matching search",
     "Hartford" : "No responses matching search",
-    "Litchfield" : "No responses matching search",
+    "Litchfield" : oneLitchfield,
     "Middletown" : "No responses matching search",
     "Haven" : "No responses matching search",
     "London" : "No responses matching search",
     "Norwalk" : "No responses matching search",
     "Stamford" : "No responses matching search",
-    "Waterbury" : "No responses matching search"
+    "Waterbury" : oneWaterbury
 };
 
 /////////////////////////////////////////////////////////////
@@ -238,7 +272,7 @@ var com1Danbury = {
 
 var com2Danbury = {
   "Name" : "The Salvation Army Family Store and Donation Center",
-  "Description" : "Help disaster survivors, cure hunger, overcome poverty, serve the LGBTQ community, provide shelter, fight human trafficking, stop domestic abuse, equip families, teach kids, empower the arts, assist the unemployed, combat addiction, love the elderly, serve veterans, share god's love, and meet the greatest need",
+  "Description" : "Help disaster survivors, cure hunger, overcome poverty, serve the LGBTQ community, provide shelter, fight human trafficking, stop domestic abuse, equip families, teach kids, empower the arts, assist the unemployed, combat addiction, love the elderly, serve veterans, share god\'s love, and meet the greatest need",
   "Address" : "129 Main St, Danbury CT, 06810",
   "Link" : "https://www.salvationarmyusa.org/usn/"
 };
@@ -272,6 +306,32 @@ var comHartford = {
   "Link" : "https://www.vitas.com/about-us/hospice-volunteers/hearts-and-hands-help-vitas-hospice-families"
 };
 
+var comLitchfield = {
+  "Name" : "Litchfield Community Center",
+  "Description" : "The Litchfield Community Center is a non-profit organization serving Litchfield and the surrounding communities of Connecticut since 2000, offering daily creative, intellectual and recreational programs for all ages. Residents and non-residents are welcome to join us",
+  "Address" : "421 Bantam Rd, Litchfield, CT 06759",
+  "Link" : "https://www.thecommunitycenter.org/"
+};
+var comMiddletown = {
+  "Name" : "Artists For World Peace",
+  "Description" : "To create opportunities for artistic expression that fosters world peace and raise funds to benefit humanitarian causes",
+  "Address" : "377 Ridge Rd, Middletown CT, 06457",
+  "Link" : "https://www.artistsforworldpeace.org/"
+};
+
+var com1Middletown = {
+  "Name" : "Gilead Community Services",
+  "Description" : "Mission is to provide a broad range of high quality health care and recovery support services in the home and community to improve mental health, physical well-being, independence and community integration for the individuals we serve",
+  "Address" : "222 Main Street Extension P.O. Box 1000, Middletown CT, 06457",
+  "Link" : "http://gileadcs.org/"
+};
+var com2Middletown = {
+  "Name" : "Greater Middletown Chorale Inc.",
+  "Description" : "Perform community choral concerts with volunteers, donors, and a support system",
+  "Address" : "190 Court St, Middletown CT, 06457",
+  "Link" : "http://gmchorale.org/"
+};
+
 var comHaven = {
   "Name" : "Community Soup Kitchen",
   "Description" : "Services meals all day and supplies food to the homeless",
@@ -300,19 +360,26 @@ var comStamford = {
   "Link" : "http://www.stamfordjcc.org/"
 };
 
+var comWaterbury = {
+  "Name" : "Waterbury Fire Department",
+  "Description" : "We are a committed, modern fire department that prides itself on a well-trained workforce that stands ready to immediately respond, assist and aid the public in any way possible.  Our services not only contribute to the safety of the public but also contribute to the stability of our city",
+  "Address" : "236 Grand Street, 4th floor Waterbury, CT 06702",
+  "Link" : "http://www.waterburyct.org/fire"
+};
+
 var communityserv = {
     "Bridgeport" : [comBridgeport, com1Bridgeport],
     "Danbury" : [comDanbury, com1Danbury, com2Danbury],
     "Glastonbury" : [comGlastonbury, com1Glastonbury],
     "Greenwich" : comGreenwich,
     "Hartford" : comHartford,
-    "Litchfield" : "No responses matching search",
-    "Middletown" : "No responses matching search",
+    "Litchfield" : comLitchfield,
+    "Middletown" : [comMiddletown, com1Middletown],
     "Haven" : comHaven,
     "London" : comLondon,
     "Norwalk" : comNorwalk,
     "Stamford" : comStamford,
-    "Waterbury" : "No responses matching search"
+    "Waterbury" : comWaterbury
 };
 /////////////////////////////////////////////////////////////////
 var teachBridgeport = {
@@ -331,21 +398,27 @@ var teach1Bridgeport = {
 
 var teachDanbury = {
   "Name" : "The Salvation Army Family Store and Donation Center",
-  "Description" : "Help disaster survivors, cure hunger, overcome poverty, serve the LGBTQ community, provide shelter, fight human trafficking, stop domestic abuse, equip families, teach kids, empower the arts, assist the unemployed, combat addiction, love the elderly, serve veterans, share god's love, and meet the greatest need",
+  "Description" : "Help disaster survivors, cure hunger, overcome poverty, serve the LGBTQ community, provide shelter, fight human trafficking, stop domestic abuse, equip families, teach kids, empower the arts, assist the unemployed, combat addiction, love the elderly, serve veterans, share god\'s love, and meet the greatest need",
   "Address" : "129 Main St, Danbury CT, 06810",
   "Link" : "https://www.salvationarmyusa.org/usn/"
 };
 
 var teachGlastonbury = {
-  "Name" : "Children’s Advancement Fund",
+  "Name" : "Children\'s Advancement Fund",
   "Description" : "A nonprofit organization, supports children with special needs and their families in connecticut by facilitating services such as occupational, physical, and speech/language therapy",
-  "Address" : "1062 Glastonbury CT 06033 USA ",
+  "Address" : "1062 Glastonbury CT 06033 USA",
   "Link" : "https://www.facebook.com/childrensadvancementfund/"
+};
+var teachLitchfield = {
+  "Name" : "Greenwoods Counseling Referrals",
+  "Description" : "We at Greenwoods know that quality mental healthcare can be very difficult to find, especially for those who are in crisis and have no idea where to turn",
+  "Address" : "25 S St Litchfield, CT 06759",
+  "Link" : "http://www.greenwoodsreferrals.org/"
 };
 
 var teachHartford = {
   "Name" : "The Salvation Army Family Store and Donation Center",
-  "Description" : "Help disaster survivors, cure hunger, overcome poverty, serve the LGBTQ community, provide shelter, fight human trafficking, stop domestic abuse, equip families, teach kids, empower the arts, assist the unemployed, combat addiction, love the elderly, serve veterans, share god's love, and meet the greatest need",
+  "Description" : "Help disaster survivors, cure hunger, overcome poverty, serve the LGBTQ community, provide shelter, fight human trafficking, stop domestic abuse, equip families, teach kids, empower the arts, assist the unemployed, combat addiction, love the elderly, serve veterans, share god\'s love, and meet the greatest need",
   "Address" : "121/123 Sigourney Street Hartford,CT",
   "Link" : "https://www.salvationarmyusa.org/usn/"
 };
@@ -353,8 +426,14 @@ var teachHartford = {
 var teachHaven = {
   "Name" : "All Our Kin",
   "Description" : "It supports kids and gives them a fair shot at life. Makes that each kid learns the value of life and the value of education",
-  "Address" : "414 A Chapel St, New Haven, CT 06511 ",
+  "Address" : "414 A Chapel St, New Haven, CT 06511",
   "Link" : "https://greatnonprofits.org/org/all-our-kin-inc"
+};
+var teachWaterbury = {
+  "Name" : "Waterbury Youth Services",
+  "Description" : "Guiding youth to discover their unique talents and potential for success",
+  "Address" : "83 Prospect Street, Waterbury CT  06702",
+  "Link" : "http://waterburyyouthservices.org/"
 };
 
 var teaching = {
@@ -363,23 +442,34 @@ var teaching = {
     "Glastonbury" : teachGlastonbury,
     "Greenwich" : "No responses matching search",
     "Hartford" : teachHartford,
-    "Litchfield" : "No responses matching search",
+    "Litchfield" : teachLitchfield,
     "Middletown" : "No responses matching search",
     "Haven" : teachHaven,
     "London" : "No responses matching search",
     "Norwalk" : "No responses matching search",
     "Stamford" : "No responses matching search",
-    "Waterbury" : "No responses matching search"
+    "Waterbury" : teachWaterbury
 };
 
 ///////////////////////////////////////////////////////////////////////
-
 var locationKeys = ["Name","Address","Description","Link"];
-
+var currAddress;
+var listed;
 //creates result string
+function checkIfInListed(serviceDictionary){
+  console.log("name is" + serviceDictionary.Name)
+  for (var i = 0 ; i<listed.length; i++){
+    if (listed[i].Name==serviceDictionary.Name){
+      return true
+    }
+  }
+  return false;
+}
+
 function returnLocationDict(dict){
   var str = "";
   for (var key in dict){
+    //dict["Ass"]
     str += "<br>" + "<strong>" + key + ": </strong>";
     if (key == "Link") {
       str += "<a target='_blank' href=" + dict[key] + ">" + dict[key] + "</a></br>"
@@ -389,11 +479,15 @@ function returnLocationDict(dict){
     console.log(str)
   }
   //fill the string
-  return str;
+  if (str == "No responses matching search") {
+    return "";
+  } else {
+    return str;
+  }
 }
 var townList = ["Bridgeport", "Danbury", "Glastonbury", "Greenwich", "Hartford", "Litchfield", "Middletown", "Haven", "London", "Norwalk", "Stamford", "Waterbury"]
 function returnServiceDict(dict, town){
-  var str;
+  var str = "";
   var end;
   var listOfTowns;
   if (town == "AllLoc"){
@@ -408,24 +502,41 @@ function returnServiceDict(dict, town){
     var type = typeof dict[town];
     console.log(type)
     if (type == "string"){
-      str = dict[town];
-      buildLocationQuery(town)
+      if (dict[town] != "No responses matching search"){
+        str = str + dict[town];
+        buildLocationQuery(town, address, title)
+      }
     } else if (type == "object") {
       if (dict[town].Address == null){
-        str = ""
         for (var i = 0; i<dict[town].length; i++){
           console.log(dict[town][i].Address)
-          str = str + "<br><br>" + returnLocationDict(dict[town][i]) + "</br></br>";
-          buildAddressQuery(dict[town][i].Address);
-        }
-        if (str == ""){
-          str = "<br><br>" + "No responses matching search" + "</br></br>";
+
+          if (returnLocationDict(dict[town][i]) != "No responses matching search") {
+            console.log("listed?" + checkIfInListed(dict[town]))
+            console.log(listed)
+            if (checkIfInListed(dict[town]) == false){
+              console.log("building string")
+              str = str + "<br><br>" + returnLocationDict(dict[town][i]) + "</br></br>";
+              buildAddressQuery(dict[town][i].Address, dict[town][i].Name);
+              listed.push(dict[town])
+            }
+          }
+
         }
       } else {
-        str = returnLocationDict(dict[town]);
-        buildAddressQuery(dict[town].Address)
+        console.log("listed? "+checkIfInListed(dict[town]))
+        console.log(listed);
+        if (checkIfInListed(dict[town]) == false){
+          console.log("building string")
+          str = str + "<br><br>" + returnLocationDict(dict[town]) + "</br></br>";
+          buildAddressQuery(dict[town].Address, dict[town].Name)
+          listed.push(dict[town])
+        }
       }
     }
+  }
+  if (str == "" && allServ_selected == false){
+    str = "<br><br>" + "No responses matching search" + "</br></br>";
   }
   return str;
 }
@@ -440,7 +551,10 @@ function getQueryVariable(variable)
        return(false);
 }
 //////////////////////////////////////////////////////////////
+var allServ_selected = false;
 function showResults() {
+  console.log("showing results")
+  listed = [];
   var loc = getQueryVariable("location");
   var serv = getQueryVariable("services")
   var dict;
@@ -465,11 +579,12 @@ function showResults() {
     dict = teaching;
   }
   else if (serv == "AllServ") {
+    allServ_selected = true;
     var text = ""
     for (var i=0; i<serviceList.length; i++){
       var tempResult = returnServiceDict(serviceList[i],loc)
       console.log("gen "+tempResult)
-      if (tempResult != "No responses matching search"){
+      if (tempResult !== "No responses matching search"){
         console.log("there was something")
         text = text + tempResult
       }
@@ -499,19 +614,19 @@ function GET(query) {
   return JSON.parse(request.responseText);
 }
 
-function buildAddressQuery(fulladdress){
+function buildAddressQuery(fulladdress, name){
   var address = fulladdress.replace(/ /g,"%20");
   var query = "http://dev.virtualearth.net/REST/v1/Locations?q="+address+"&key="+key
-  pin(query)
+  pin(query, name, fulladdress)
 }
 
-function buildLocationQuery(fulllocation){
+function buildLocationQuery(fulllocation, title){
   var location = fulllocation.replace(/ /g,"%20");
   var query = "http://dev.virtualearth.net/REST/v1/Locations?locality="+location+"&key="+key
-  pin(query)
+  pin(query, name, fulllocation)
 }
 
-function pin(query){
+function pin(query, title, name){
   var data = GET(query)
 
   var lat = data.resourceSets[0].resources[0].point.coordinates[0];
@@ -520,15 +635,8 @@ function pin(query){
   var long = data.resourceSets[0].resources[0].point.coordinates[1];
   console.log(long)
 
-  var marker = L.marker([lat, long]).addTo(mymap);
+  var marker = L.marker([lat, long],{title: title + ". " + "Address: " + name}).addTo(mymap);
 }
 
-/* alert("Ready State " + countryRequest.readyState);
-alert("Status " + countryRequest.status);
-alert("Response " + countryRequest.responseText); */
-// var long = response[0].latlng[1];
-// var lat = response[0].latlng[0];
-// var location = ol.proj.fromLonLat([long, lat]);
-
-
+console.log("on page")
 showResults();

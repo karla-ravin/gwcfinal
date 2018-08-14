@@ -21,7 +21,6 @@ body {
   background-color: #3d495e;
   color: #f4f6f9;
 }
-
 .current {
   background-color: #b3cdf9;
   color: #f4f6f9;
@@ -231,4 +230,39 @@ h3 {
   .popup{
     width: 70%;
   }
+}
+
+#why {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#who {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img1{
+  height: 150px;
+  width: 250px;
+  padding: 115px;
+}
+#img2{
+  height: 150px;
+  width: 250px;
+  padding: 115px;
+}
+#middle{
+  height: 400px;
+  width: 500px;
+}
+#us{
+  height: 400px;
+  width: 500px;
+}
+
+#caption{
+  font-size: 12px;
 }
