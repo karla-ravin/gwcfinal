@@ -616,13 +616,13 @@ function GET(query) {
 
 function buildAddressQuery(fulladdress, name){
   var address = fulladdress.replace(/ /g,"%20");
-  var query = "http://dev.virtualearth.net/REST/v1/Locations?q="+address+"&key="+key
+  var query = "https://dev.virtualearth.net/REST/v1/Locations?q="+address+"&key="+key
   pin(query, name, fulladdress)
 }
 
 function buildLocationQuery(fulllocation, title){
   var location = fulllocation.replace(/ /g,"%20");
-  var query = "http://dev.virtualearth.net/REST/v1/Locations?locality="+location+"&key="+key
+  var query = "https://dev.virtualearth.net/REST/v1/Locations?locality="+location+"&key="+key
   pin(query, name, fulllocation)
 }
 
